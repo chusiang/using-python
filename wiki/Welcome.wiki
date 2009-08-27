@@ -4,4 +4,8 @@
 
   # 建立開發環境
   # [Numbers 處理數值資料]
+  # [Variables 變數]
   # [String 處理字串]
+  # [ListAndTuple 串列資料]
+  # [Condition 條件判斷]
+  # [Loop 迴圈]
