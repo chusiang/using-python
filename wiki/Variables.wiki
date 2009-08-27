@@ -1,4 +1,5 @@
 #summary 如何使用 Python 變數
+#sidebar TOC
 
 == 使用變數 ==
 
