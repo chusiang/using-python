@@ -1,8 +1,11 @@
 #summary 目錄.
 
+這是一份適合程式設計初學者，或是 Python 初學者的正體中文文件。
+
 = 文件目錄 =
 
-  # 建立開發環境
+  # [Installation 安裝 Python 直譯器]
+  # [Environment 推薦的開發環境]
   # [Numbers 處理數值資料]
   # [Variables 使用變數]
   # [String 處理字串資料]
