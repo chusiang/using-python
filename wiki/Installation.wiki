@@ -1,0 +1,16 @@
+#summary 如何安裝 Python 直譯器
+#sidebar TOC
+
+== 為什麼要裝直譯器? ==
+
+使用 Python 程式語言所寫出的程式碼，不需要透過編譯器（compiler）將它編譯成可執行檔案，僅需要 Python 直譯器（interpreter）就可以執行。好處是程式碼修改後，執行時立即改變。
+
+== 下載 Python 直譯器 ==
+
+直接連結到[http://www.python.org/download/ Python 官方下載頁]就可以找到各種版本的 Python 直譯器。本文件目前會以 Python 2.5 版本為主，建議下載 Python 2.5.4 的版本來學習使用。
+
+=== 在 Windows 下安裝 ===
+
+=== 在 Linux 下安裝 ===
+
+=== 在 Mac OSX 下安裝 ===
