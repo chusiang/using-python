@@ -11,6 +11,16 @@
 
 === 在 Windows 下安裝 ===
 
+  * 首先，在 Python 官方下載頁選擇 2.5.4 的版本:
+  [http://lh3.ggpht.com/_hNy_9UI1_R8/SpeJdiFNqMI/AAAAAAAAC1I/0uUTjRSSHfI/s400/2_13.png]
+
+  並且下載適合的安裝檔案（`*`.msi）
+
+  [http://lh6.ggpht.com/_hNy_9UI1_R8/SpeKVN8mAhI/AAAAAAAAC1Q/GlHsA3nQeCk/s400/2-14.png]
+
+  * 執行安裝程式，按照指示安裝在合適的路徑：
+  [http://lh5.ggpht.com/_hNy_9UI1_R8/SpeKVZ8cFvI/AAAAAAAAC1U/VeZ1CPi8W2Y/s400/2-15.png]
+
 === 在 Linux 下安裝 ===
 
 === 在 Mac OSX 下安裝 ===
