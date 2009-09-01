@@ -5,3 +5,4 @@
     # [Variables 使用變數]
     # [String 處理字串資料]
     # [ListAndTuple List 及 Tuple 資料結構]
+    # [Dictionary 處理 Dictionary 資料]
