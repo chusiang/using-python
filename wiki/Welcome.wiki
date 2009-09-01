@@ -10,7 +10,7 @@
   # [Variables 使用變數]
   # [String 處理字串資料]
   # [ListAndTuple 處理 List 及 Tuple 資料]
-  # [Dictionay 處理 Dictionary 資料]
+  # [Dictionary 處理 Dictionary 資料]
   # [Condition 條件判斷]
   # [Loop 迴圈]
   # [Function 使用函式]
