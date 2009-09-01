@@ -23,4 +23,28 @@
 
 === 在 Linux 下安裝 ===
 
+現在大部份的 Linux 系統在標準安裝後，預設都會安裝 Python 的直譯器，你可以先在命令列中輸入 `python` 看看會不會出現類似像這樣的交談式介面：
+{{{
+Python 2.6.2 (release26-maint, Apr 19 2009, 01:58:18) 
+[GCC 4.3.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+}}}
+如果有出現類的畫面就表示系統已經安裝了 Python 直譯器，若是沒有出現，則可以選擇下列幾種安裝方式：
+
+==== 使用套件系統安裝 ====
+
+如果使用的是 Debian/Ubuntu Linux，則可以使用：
+  || `sudo apt-get install python` ||
+來進行安裝。
+
+若是 Gentoo Linux，則使用：
+  || `sudo emerge python` ||
+
+而 Fedora Linux 則是使用：
+  || `sudo yum install python2.5` ||
+來安裝。
+
+==== 從 Python 原始碼安裝 ====
+
 === 在 Mac OSX 下安裝 ===
