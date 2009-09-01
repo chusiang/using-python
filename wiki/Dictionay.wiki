@@ -11,7 +11,7 @@
 {{{
 d = {'python': 'Large constricting snakes.', 'ruby': 'A precious stone that is a red corundum.'}
 }}}
-當 Python 直譯器執行這段程式後，Dictionary 物件就生成了。`'python'` 這個字串，在上例中即扮演 Key 的角色，而 `'Large constricting snakes.'` 這個字串，則扮演 Value 的角色。而 Key : Value 之間以冒號 : 簡隔之，如果有好幾對 Key : Value，則以逗號 `,` 間隔之。
+當 Python 直譯器執行這段程式後，Dictionary 物件就生成了。`'python'` 這個字串，在上例中即扮演 Key 的角色，而 `'Large constricting snakes.'` 這個字串，則扮演 Value 的角色。而 Key : Value 之間以冒號 : 間隔之，如果有好幾對 Key : Value，則以逗號 `,` 間隔之。
 
 當我們使用 `[]` 這個運算子的時候，我們就可以拿到它的 Value 了
 {{{
