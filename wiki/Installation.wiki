@@ -47,4 +47,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ==== 從 Python 原始碼安裝 ====
 
+  * 從[http://www.python.org/downloads/ Python官方下載頁]下載原始碼（如：python-2.5.4.tgz 或 python-2.5.4.tar.bz2）
+
+  * 解壓縮後，在 Python 原始碼的目錄中執行：
+  || `$ ./configure --prefix=/usr/local` ||
+  便會開始設定建置 Python 的一些選項，其中 `prefix` 為安裝的位置。
+
+  * 若是沒有錯誤，則可以利用下列指令完成安裝：
+  || `$ sudo make install` ||
+
+  * 試試看是否能執行 `/usr/local/bin/python`
+
 === 在 Mac OSX 下安裝 ===
