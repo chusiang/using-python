@@ -11,3 +11,5 @@
   # [Generator 使用 generator 節省記憶體。]
   # [RemoveElse 少用 else 讓程式邏輯更清楚。]
   # [WithStatement 善用 with 管理物件的前置和後置處理以隱藏資源管理的細節。]
+  # [ComposeMethod 用 Compose Method 讓程式更易讀]
+  # [Immutable 遵守物件不可變的準則以減少犯錯的機會]
