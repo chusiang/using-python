@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+
+= 少用 else 讓程式邏輯更清楚 =
+
+== Why ==
+讓主邏輯簡潔易懂。
+
+== What ==
+程式邏輯常出現分支，這時會習慣性地用 if ... elif ... else ... 的寫法。雖然這樣寫起來很直觀，卻不易讀，容易分心在雜亂的分枝裡，而無法專心理解全局。
+
+== How ==
+=== 使用 Return Guard ===
+=== 使用函式和 list comprehension ===
+=== 使用 Dictionary ===
+=== 使用多型 ===
