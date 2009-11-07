@@ -10,6 +10,45 @@
 
 == How ==
 === 使用 Return Guard ===
+{{{
+def foo(x):
+    if x < 0:
+        return False
+    ...
+    return True
+}}}
 === 使用函式和 list comprehension ===
+{{{
+abs_numbers = [math.fabs(x) for x in numbers]
+}}}
+
+{{{
+def x_to_y(x):
+    if SOME_CONDITION:
+        return SOME_VALUE
+    ...
+    return SOME_VALUE
+
+ys = [x_to_y(x) for x in xs]
+}}}
 === 使用 Dictionary ===
+{{{
+import operator
+
+def calculation(a, op, b):
+    digit_names = ['zero', 'one', 'two', 'three', 'four',
+                   'five', 'six', 'seven', 'eight', 'nine']
+    numbers = dict(zip(digit_names, range(10)))
+    invert_numbers = dict(zip(range(10), digit_names))
+
+    operator_names = ['add', 'subtract', 'divide', 'multiply']
+    operator_functions = [operator.add, operator.sub, operator.div, operator.mul]
+    operators = dict(zip(operator_names, operator_functions))
+
+    result = operators[op](numbers[a], numbers[b])
+    return invert_numbers[result]
+
+print calculation('one', 'add', 'two')  # three
+
+}}}
 === 使用多型 ===
