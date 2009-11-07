@@ -33,7 +33,7 @@ def grep(pattern, filenames):
 
 def cat(filenames):
     for line in read_files(filenames):
-            print line
+        print line
 }}}
 
 若需要走訪整個目錄下所有檔案，可以使用 os.walk。
