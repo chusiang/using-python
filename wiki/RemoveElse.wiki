@@ -36,19 +36,18 @@ ys = [x_to_y(x) for x in xs]
 import operator
 
 def calculation(a, op, b):
-    digit_names = ['zero', 'one', 'two', 'three', 'four',
-                   'five', 'six', 'seven', 'eight', 'nine']
-    numbers = dict(zip(digit_names, range(10)))
-    invert_numbers = dict(zip(range(10), digit_names))
+    digits = ['zero', 'one', 'two', 'three', 'four',
+              'five', 'six', 'seven', 'eight', 'nine']
+    s2n = dict(zip(digits, range(10)))
+    n2s = dict(zip(range(10), digits))
 
-    operator_names = ['add', 'subtract', 'divide', 'multiply']
-    operator_functions = [operator.add, operator.sub, operator.div, operator.mul]
-    operators = dict(zip(operator_names, operator_functions))
+    op_names = ['add', 'subtract', 'divide', 'multiply']
+    op_funcs = [operator.add, operator.sub, operator.div, operator.mul]
+    s2op = dict(zip(op_names, op_funcs))
 
-    result = operators[op](numbers[a], numbers[b])
-    return invert_numbers[result]
+    result = s2op[op](s2n[a], s2n[b])
+    return n2s[result]
 
 print calculation('one', 'add', 'two')  # three
-
 }}}
 === 使用多型 ===
