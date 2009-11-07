@@ -5,8 +5,4 @@
 == How ==
 === 用 iterator 取代 index ===
 === 用 enumerate 同時取得 index 和 iterator 內的元素 ===
-=== 用 zip 將多層迴圈縮成一個 ===
-{{{
-for i, j in zip(range(1, 10), range(1, 10)):
-    print '%d * %d = %d' % (i, j, i * j)
-}}}
+=== 用 zip 將多組串列合成一個串列 ===
