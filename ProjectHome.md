@@ -1,0 +1,1 @@
+這個 project 提供學習 Python 的入門文件。
