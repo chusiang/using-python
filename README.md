@@ -1,6 +1,7 @@
 這是一份適合程式設計初學者，或是 Python 初學者的正體中文文件。
 
-> 資料來源：[using-python - 學習如何使用 Python 程式語言 | Google Project Hosting](https://code.google.com/p/using-python/)
+> 資料來源：[學習如何使用 Python 程式語言 | Google Project
+Hosting](https://code.google.com/p/using-python/) by [@ericsk](https://github.com/ericsk)
 
 # 文件目錄
 
